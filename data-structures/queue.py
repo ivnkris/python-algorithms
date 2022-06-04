@@ -9,8 +9,7 @@ class Queue:
         return self.storage[0] 
 
     def dequeue(self):
-        popped = self.storage.pop(0)
-        return popped
+        return self.storage.pop(0)
     
 # Setup
 q = Queue(1)

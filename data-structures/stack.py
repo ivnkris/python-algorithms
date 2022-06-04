@@ -36,8 +36,7 @@ class Stack(object):
         self.ll.insert_first(new_element)
 
     def pop(self):
-        popped = self.ll.delete_first()
-        return popped
+        return self.ll.delete_first()
     
 # Test cases
 # Set up some Elements
